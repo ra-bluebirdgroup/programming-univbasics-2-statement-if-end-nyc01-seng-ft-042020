@@ -1,7 +1,7 @@
 # Write your solution here
 
 def say_its_even
- if Time.now % 2 == 0
+ if Time.now.even?
   puts "Even!"
  else
   puts "Odd!"
