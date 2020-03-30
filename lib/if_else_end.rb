@@ -1,6 +1,7 @@
 # Write your solution here
-time = Time.now.to_i
+
 def say_its_even
+time = Time.now.to_i
  if time.even?
   puts "Even!"
  else
