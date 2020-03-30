@@ -1,11 +1,11 @@
 # Write your solution here
 
-def say_its_even(num)
- if num.even?
+def say_its_even
+ if Time.now.even?
   puts "Even!"
  else
   puts "Odd!"
  end
 end
 
-say_its_even(num)
+say_its_even
