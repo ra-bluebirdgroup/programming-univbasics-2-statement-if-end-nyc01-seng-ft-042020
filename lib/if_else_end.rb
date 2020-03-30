@@ -1,6 +1,9 @@
 # Write your solution here
 num = 0
-if num.even?
+def say_its_even(num)
+ if num.even?
   puts "Even!"
-else
+ else
   puts "Odd!"
+ end
+end 
