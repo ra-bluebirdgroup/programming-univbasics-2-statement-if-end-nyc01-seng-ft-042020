@@ -8,4 +8,4 @@ def say_its_even(num)
  end
 end
 
-say_its_even
+say_its_even(num)
