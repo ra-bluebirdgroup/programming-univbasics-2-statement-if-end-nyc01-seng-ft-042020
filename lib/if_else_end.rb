@@ -6,4 +6,6 @@ def say_its_even(num)
  else
   puts "Odd!"
  end
-end 
+end  
+
+say_its_even
